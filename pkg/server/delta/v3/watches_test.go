@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/v3"
 )
 
 func TestDeltaWatches(t *testing.T) {

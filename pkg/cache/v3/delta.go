@@ -17,8 +17,8 @@ package cache
 import (
 	"context"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/server/stream/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/server/stream/v3"
 )
 
 // groups together resource-related arguments for the createDeltaResponse function

@@ -9,8 +9,8 @@ package tracev3
 import (
 	v1 "github.com/census-instrumentation/opencensus-proto/gen-go/trace/v1"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

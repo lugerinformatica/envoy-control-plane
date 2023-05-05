@@ -1,6 +1,6 @@
 # xDS Server Implementation
 
-go-control-plane ships with a full [streaming implementation](https://github.com/envoyproxy/go-control-plane/blob/main/pkg/server/v3/server.go#L175) of the xDS protocol. Current support for the servers lists as follows:
+go-control-plane ships with a full [streaming implementation](https://github.com/lugerinformatica/envoy-control-plane/blob/main/pkg/server/v3/server.go#L175) of the xDS protocol. Current support for the servers lists as follows:
 - REST HTTP/1.1 *(This will soon be deprecated)*
 - gRPC Bi-Di
 	- State of the World
@@ -9,11 +9,11 @@ go-control-plane ships with a full [streaming implementation](https://github.com
 ## Getting Started
 
 For a fully functional gRPC server, check out the provided example for what that looks like:
-- https://github.com/envoyproxy/go-control-plane/blob/main/internal/example/server.go
+- https://github.com/lugerinformatica/envoy-control-plane/blob/main/internal/example/server.go
 
 ### Callbacks
 
-All go-control-plane xDS server implementations require `Callback` methods. Callbacks are executed at certain steps of the management server lifecycle. The interface to be implemented can be found [here](https://godoc.org/github.com/envoyproxy/go-control-plane/pkg/server/v2#Callbacks).
+All go-control-plane xDS server implementations require `Callback` methods. Callbacks are executed at certain steps of the management server lifecycle. The interface to be implemented can be found [here](https://godoc.org/github.com/lugerinformatica/envoy-control-plane/pkg/server/v2#Callbacks).
 
 An example implemention of the Callback interface can be found below:
 ```go
@@ -22,8 +22,8 @@ import (
 	"log"
 	"sync"
 
-	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
+	discovery "github.com/lugerinformatica/envoy-control-plane/envoy/service/discovery/v3"
 )
 
 type Callbacks struct {
@@ -106,6 +106,6 @@ func (cb *Callbacks) OnFetchResponse(*discovery.DiscoveryRequest, *discovery.Dis
 
 ## Info
 
-The internal go-control-plane gRPC server implementations take care of managing watches with the [Config Watcher](https://github.com/envoyproxy/go-control-plane/blob/main/pkg/cache/v3/cache.go#L45) when new xDS clients register themselves.
+The internal go-control-plane gRPC server implementations take care of managing watches with the [Config Watcher](https://github.com/lugerinformatica/envoy-control-plane/blob/main/pkg/cache/v3/cache.go#L45) when new xDS clients register themselves.
 
 > *NOTE*: The server supports REST/JSON as well as gRPC bi-di streaming

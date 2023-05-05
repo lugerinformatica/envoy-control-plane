@@ -8,7 +8,7 @@ package client_ssl_authv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

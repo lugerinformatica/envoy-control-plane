@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	pbmatcher "github.com/cncf/xds/go/xds/type/matcher/v3"
-	pblegacymatcher "github.com/envoyproxy/go-control-plane/envoy/config/common/matcher/v3"
-	iproto "github.com/envoyproxy/go-control-plane/xdsmatcher/internal/proto"
-	_ "github.com/envoyproxy/go-control-plane/xdsmatcher/test"
-	pbtest "github.com/envoyproxy/go-control-plane/xdsmatcher/test/proto"
+	pblegacymatcher "github.com/lugerinformatica/envoy-control-plane/envoy/config/common/matcher/v3"
+	iproto "github.com/lugerinformatica/envoy-control-plane/xdsmatcher/internal/proto"
+	_ "github.com/lugerinformatica/envoy-control-plane/xdsmatcher/test"
+	pbtest "github.com/lugerinformatica/envoy-control-plane/xdsmatcher/test/proto"
 )
 
 func TestSimple(t *testing.T) {

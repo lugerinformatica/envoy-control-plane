@@ -9,9 +9,9 @@ package authv3
 import (
 	context "context"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	v31 "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/type/v3"
 	_struct "github.com/golang/protobuf/ptypes/struct"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	grpc "google.golang.org/grpc"

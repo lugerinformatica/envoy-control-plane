@@ -9,7 +9,7 @@ package matcherv3
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
 	_ "github.com/cncf/xds/go/xds/annotations/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/type/matcher/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

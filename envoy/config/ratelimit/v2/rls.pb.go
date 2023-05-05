@@ -8,7 +8,7 @@ package ratelimitv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

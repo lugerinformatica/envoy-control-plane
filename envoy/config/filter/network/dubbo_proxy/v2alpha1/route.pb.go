@@ -8,9 +8,9 @@ package v2alpha1
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	route "github.com/envoyproxy/go-control-plane/envoy/api/v2/route"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
+	route "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/route"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
+	matcher "github.com/lugerinformatica/envoy-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

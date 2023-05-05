@@ -8,8 +8,8 @@ package tapv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/common/tap/v3"
+	v31 "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/extensions/common/tap/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

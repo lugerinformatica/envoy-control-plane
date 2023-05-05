@@ -9,7 +9,7 @@ package discoveryv2
 import (
 	context "context"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/api/v2"
+	v2 "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

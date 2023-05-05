@@ -8,9 +8,9 @@ package faultv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v32 "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/common/fault/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
+	v32 "github.com/lugerinformatica/envoy-control-plane/envoy/config/route/v3"
+	v31 "github.com/lugerinformatica/envoy-control-plane/envoy/extensions/filters/common/fault/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/type/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

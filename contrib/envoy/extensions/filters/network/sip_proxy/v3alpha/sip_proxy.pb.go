@@ -8,7 +8,7 @@ package v3alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3alpha "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/filters/network/sip_proxy/tra/v3alpha"
+	v3alpha "github.com/lugerinformatica/envoy-control-plane/contrib/envoy/extensions/filters/network/sip_proxy/tra/v3alpha"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any1 "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"

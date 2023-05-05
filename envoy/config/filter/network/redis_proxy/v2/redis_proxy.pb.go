@@ -8,8 +8,8 @@ package redis_proxyv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

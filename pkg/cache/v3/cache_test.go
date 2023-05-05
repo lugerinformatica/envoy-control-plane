@@ -8,11 +8,11 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
+	route "github.com/lugerinformatica/envoy-control-plane/envoy/config/route/v3"
+	discovery "github.com/lugerinformatica/envoy-control-plane/envoy/service/discovery/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/resource/v3"
 )
 
 const (

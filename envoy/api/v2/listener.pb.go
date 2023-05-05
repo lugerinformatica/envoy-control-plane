@@ -8,10 +8,10 @@ package apiv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	listener "github.com/envoyproxy/go-control-plane/envoy/api/v2/listener"
-	v21 "github.com/envoyproxy/go-control-plane/envoy/config/filter/accesslog/v2"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/config/listener/v2"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
+	listener "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/listener"
+	v21 "github.com/lugerinformatica/envoy-control-plane/envoy/config/filter/accesslog/v2"
+	v2 "github.com/lugerinformatica/envoy-control-plane/envoy/config/listener/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

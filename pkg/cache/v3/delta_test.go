@@ -11,13 +11,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/stream/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test/resource/v3"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
+	discovery "github.com/lugerinformatica/envoy-control-plane/envoy/service/discovery/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/v3"
+	rsrc "github.com/lugerinformatica/envoy-control-plane/pkg/resource/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/server/stream/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/test/resource/v3"
 )
 
 func assertResourceMapEqual(t *testing.T, want map[string]types.Resource, got map[string]types.Resource) {

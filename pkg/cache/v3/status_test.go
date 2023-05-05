@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
 )
 
 func TestIDHash(t *testing.T) {

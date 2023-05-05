@@ -8,9 +8,9 @@ package core
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
+	matcher "github.com/lugerinformatica/envoy-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any1 "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"

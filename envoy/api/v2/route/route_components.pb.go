@@ -8,11 +8,11 @@ package route
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/type/tracing/v2"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
+	matcher "github.com/lugerinformatica/envoy-control-plane/envoy/type/matcher"
+	v2 "github.com/lugerinformatica/envoy-control-plane/envoy/type/tracing/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any1 "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"

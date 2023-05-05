@@ -10,7 +10,7 @@ import (
 	context "context"
 	v1 "github.com/census-instrumentation/opencensus-proto/gen-go/trace/v1"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

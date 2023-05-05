@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/envoyproxy/go-control-plane/xdsmatcher/pkg/matcher/registry"
-	"github.com/envoyproxy/go-control-plane/xdsmatcher/pkg/matcher/types"
-	pbtest "github.com/envoyproxy/go-control-plane/xdsmatcher/test/proto"
+	"github.com/lugerinformatica/envoy-control-plane/xdsmatcher/pkg/matcher/registry"
+	"github.com/lugerinformatica/envoy-control-plane/xdsmatcher/pkg/matcher/types"
+	pbtest "github.com/lugerinformatica/envoy-control-plane/xdsmatcher/test/proto"
 )
 
 // This file contains a number of input and action extensions registered for the purpose of testing the framework.

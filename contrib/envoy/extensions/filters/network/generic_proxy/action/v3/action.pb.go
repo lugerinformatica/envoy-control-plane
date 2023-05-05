@@ -9,8 +9,8 @@ package actionv3
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
 	_ "github.com/cncf/xds/go/xds/annotations/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/config/core/v3"
+	v31 "github.com/lugerinformatica/envoy-control-plane/envoy/config/route/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any1 "github.com/golang/protobuf/ptypes/any"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

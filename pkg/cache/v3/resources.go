@@ -1,6 +1,6 @@
 package cache
 
-import "github.com/envoyproxy/go-control-plane/pkg/cache/types"
+import "github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
 
 // Resources is a versioned group of resources.
 type Resources struct {

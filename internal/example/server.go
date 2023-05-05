@@ -24,16 +24,16 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	clusterservice "github.com/envoyproxy/go-control-plane/envoy/service/cluster/v3"
-	discoverygrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	endpointservice "github.com/envoyproxy/go-control-plane/envoy/service/endpoint/v3"
-	listenerservice "github.com/envoyproxy/go-control-plane/envoy/service/listener/v3"
-	routeservice "github.com/envoyproxy/go-control-plane/envoy/service/route/v3"
-	runtimeservice "github.com/envoyproxy/go-control-plane/envoy/service/runtime/v3"
-	secretservice "github.com/envoyproxy/go-control-plane/envoy/service/secret/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test/v3"
+	clusterservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/cluster/v3"
+	discoverygrpc "github.com/lugerinformatica/envoy-control-plane/envoy/service/discovery/v3"
+	endpointservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/endpoint/v3"
+	listenerservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/listener/v3"
+	routeservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/route/v3"
+	runtimeservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/runtime/v3"
+	secretservice "github.com/lugerinformatica/envoy-control-plane/envoy/service/secret/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/server/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/test/v3"
 )
 
 const (

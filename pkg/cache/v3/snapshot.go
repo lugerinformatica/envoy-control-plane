@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/resource/v3"
 )
 
 // Snapshot is an internally consistent snapshot of xDS resources.

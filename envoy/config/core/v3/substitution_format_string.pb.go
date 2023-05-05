@@ -8,7 +8,7 @@ package corev3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	_struct "github.com/golang/protobuf/ptypes/struct"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

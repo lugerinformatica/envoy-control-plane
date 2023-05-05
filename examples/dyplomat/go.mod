@@ -1,9 +1,9 @@
-module github.com/envoyproxy/go-control-plane/examples/dyplomat
+module github.com/lugerinformatica/envoy-control-plane/examples/dyplomat
 
 go 1.17
 
 require (
-	github.com/envoyproxy/go-control-plane v0.11.0
+	github.com/lugerinformatica/envoy-control-plane v0.11.0
 	google.golang.org/grpc v1.52.3
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.26.1

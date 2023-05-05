@@ -3,7 +3,7 @@ package stream
 import (
 	"google.golang.org/grpc"
 
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
+	discovery "github.com/lugerinformatica/envoy-control-plane/envoy/service/discovery/v3"
 )
 
 // Generic RPC stream.

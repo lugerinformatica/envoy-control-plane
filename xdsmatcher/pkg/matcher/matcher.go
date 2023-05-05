@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	pbmatcher "github.com/cncf/xds/go/xds/type/matcher/v3"
-	pblegacymatcher "github.com/envoyproxy/go-control-plane/envoy/config/common/matcher/v3"
-	"github.com/envoyproxy/go-control-plane/xdsmatcher/pkg/matcher/registry"
-	"github.com/envoyproxy/go-control-plane/xdsmatcher/pkg/matcher/types"
+	pblegacymatcher "github.com/lugerinformatica/envoy-control-plane/envoy/config/common/matcher/v3"
+	"github.com/lugerinformatica/envoy-control-plane/xdsmatcher/pkg/matcher/registry"
+	"github.com/lugerinformatica/envoy-control-plane/xdsmatcher/pkg/matcher/types"
 	"google.golang.org/protobuf/proto"
 )
 

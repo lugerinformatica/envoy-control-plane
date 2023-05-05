@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/log"
-	"github.com/envoyproxy/go-control-plane/pkg/server/stream/v3"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/cache/types"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/log"
+	"github.com/lugerinformatica/envoy-control-plane/pkg/server/stream/v3"
 )
 
 // ResourceSnapshot is an abstract snapshot of a collection of resources that
@@ -411,7 +411,7 @@ func (cache *snapshotCache) cancelWatch(nodeID string, watchID int64) func() {
 }
 
 // Respond to a watch with the snapshot value. The value channel should have capacity not to block.
-// TODO(kuat) do not respond always, see issue https://github.com/envoyproxy/go-control-plane/issues/46
+// TODO(kuat) do not respond always, see issue https://github.com/lugerinformatica/envoy-control-plane/issues/46
 func (cache *snapshotCache) respond(ctx context.Context, request *Request, value chan Response, resources map[string]types.ResourceWithTTL, version string, heartbeat bool) error {
 	// for ADS, the request names must match the snapshot names
 	// if they do not, then the watch is never responded, and it is expected that envoy makes another request

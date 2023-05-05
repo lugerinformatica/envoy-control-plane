@@ -9,7 +9,7 @@ package metricsv2
 import (
 	context "context"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	_go "github.com/prometheus/client_model/go"
 	grpc "google.golang.org/grpc"

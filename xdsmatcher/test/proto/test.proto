@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package xdsmatcher.test.proto;
 
-option go_package = "github.com/envoyproxy/go-control-plane/xdsmatcher/test/proto";
+option go_package = "github.com/lugerinformatica/envoy-control-plane/xdsmatcher/test/proto";
 
 // This file contains a number of proto definitions used for registration of actions and inputs for testing.
 message TestData {

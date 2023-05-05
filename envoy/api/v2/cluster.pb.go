@@ -8,11 +8,11 @@ package apiv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	auth "github.com/envoyproxy/go-control-plane/envoy/api/v2/auth"
-	cluster "github.com/envoyproxy/go-control-plane/envoy/api/v2/cluster"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	auth "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/auth"
+	cluster "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/cluster"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any1 "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"

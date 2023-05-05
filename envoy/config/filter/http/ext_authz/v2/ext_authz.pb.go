@@ -8,10 +8,10 @@ package ext_authzv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
+	matcher "github.com/lugerinformatica/envoy-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -8,8 +8,8 @@ package v2alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	v2alpha "github.com/envoyproxy/go-control-plane/envoy/config/common/tap/v2alpha"
+	core "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/core"
+	v2alpha "github.com/lugerinformatica/envoy-control-plane/envoy/config/common/tap/v2alpha"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

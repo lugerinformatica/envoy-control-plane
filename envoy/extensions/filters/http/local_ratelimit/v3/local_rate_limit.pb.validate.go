@@ -18,7 +18,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/common/ratelimit/v3"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/extensions/common/ratelimit/v3"
 )
 
 // ensure the imports are used

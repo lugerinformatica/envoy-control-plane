@@ -8,8 +8,8 @@ package ring_hashv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/common/v3"
+	_ "github.com/lugerinformatica/envoy-control-plane/envoy/annotations"
+	v3 "github.com/lugerinformatica/envoy-control-plane/envoy/extensions/load_balancing_policies/common/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

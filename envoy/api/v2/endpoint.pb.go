@@ -8,8 +8,8 @@ package apiv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	endpoint "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	endpoint "github.com/lugerinformatica/envoy-control-plane/envoy/api/v2/endpoint"
+	_type "github.com/lugerinformatica/envoy-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
